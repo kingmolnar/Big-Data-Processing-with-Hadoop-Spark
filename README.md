@@ -10,7 +10,7 @@ The workshop series offers a brief introduction to concepts of parallel distribu
 Concepts of parallel distributed programming, map-reduce, HDFS
 
 ### Session 2: April 1
-Map Reduce, MR Streaming API
+Map Reduce, MR Streaming API [Video 1:45h, 5GB](https://drive.google.com/open?id=0Bwz6tnAHP9BHbEs4SHhpTDNQODA)
 
 ### Session 3: April 8
 Hbase, Hive, Pig and other tools to query and access

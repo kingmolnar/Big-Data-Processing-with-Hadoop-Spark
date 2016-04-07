@@ -1,5 +1,7 @@
 # Map-Reduce Streaming API
 
+[Video 1:45h, 5GB](https://drive.google.com/open?id=0Bwz6tnAHP9BHbEs4SHhpTDNQODA)
+
 The Map-Reduce Streaming API provides a convenient way to perform parallel computing by utilizing familiar programming concepts and languages. The MR Streaming API manages data distribution, load balancing, and communication between the processes, which read from standard input and write to standard output.
 
 Programs can be tested outside the Hadoop environment using the basic UNIX pipe mechanism:
