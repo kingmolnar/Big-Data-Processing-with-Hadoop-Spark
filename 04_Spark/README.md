@@ -18,3 +18,11 @@ Spark is already installed on the Hortonworks Virtual machine. Instructions to i
 ## Resources
 1. https://spark.apache.org/docs/latest/programming-guide.html
 2. [Spark for Python Developers by Amit Nandi (2015)](http://it-ebooks.info/book/6809/)
+3. [Machine Learning with Spark by Nick Pentreath (2015)](http://it-ebooks.info/book/5655/)
+4. [Paralle Programming with Spark by Matei Zaharia
+ (Presentation)](http://ampcamp.berkeley.edu/wp-content/uploads/2013/02/Parallel-Programming-With-Spark-Matei-Zaharia-Strata-2013.pptx)
+
+## Examples
+1. Word Count
+2. Movie Lens data
+3. Page Rank
