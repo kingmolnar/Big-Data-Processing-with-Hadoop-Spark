@@ -26,4 +26,3 @@ Spark
 1. [MapReduce Design Patterns](http://it-ebooks.info/book/1264/) free e-book
 2. [Hadoop MapReduce v2 Cookbook, 2nd Edition](http://it-ebooks.info/book/4891/) free e-book
 
----
