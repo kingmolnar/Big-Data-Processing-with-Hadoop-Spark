@@ -1,20 +1,17 @@
 # Introduction to Hadoop
-A four session workshop to get started using tools in the Hadoop universe. We're going to use the Hortonworks Hadoop Sandbox.
 
-##Objective:
+
+The workshop introduces some of the core elements of Hadoop: the distributed file system (HDFS), MapReduce, Hive, HBase, and Kafka.
+
+### Sessions
+1. Participants learn about the core concepts behind Hadoop, how to manage data files on HDFS, and use the MapReduce Streaming API for scalable, distributed data processing with Python.
+2. The second session covers managing data in Hive and HBase, and best practices of using schema based versus key-value-based data stores.
+3. Participants will use Kafka to ingest data from Internet sources, such as the Twitter Streaming API, and prepare the collected samples for processing.
+
+<!--
+##Objectiv:
 The workshop series offers a brief introduction to concepts of parallel distributed computing and the Hadoop universe. Participants will learn to navigate among the various tools, and to write programs for large scale data analysis. Examples will be provided in Python and R, knowledge of the Java programming language is not required.
-
-### Session 1: March 25
-Concepts of parallel distributed programming, map-reduce, HDFS
-
-### Session 2: April 1
-Map Reduce, MR Streaming API [Video 1:45h, 5GB](https://drive.google.com/open?id=0Bwz6tnAHP9BHbEs4SHhpTDNQODA)
-
-### Session 3: April 8
-Hbase, Hive, Pig and other tools to query and access
-
-### Session 4: April 15
-Spark
+-->
 
 ## Preperation
 1. Install either VMWare Virtual Machine or Virtual Box on your laptop. (VMWare offers a free Workstation Player for Windows and Linux https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0, OS X users may use VMWare Fusion https://www.vmware.com/products/fusion/fusion-evaluation.html. Oracle's VirtualBox https://www.virtualbox.org/wiki/Downloads is free for all platforms.)
@@ -23,6 +20,5 @@ Spark
 
 
 ## Literature
-1. [MapReduce Design Patterns](http://it-ebooks.info/book/1264/) free e-book
-2. [Hadoop MapReduce v2 Cookbook, 2nd Edition](http://it-ebooks.info/book/4891/) free e-book
-
+1. [MapReduce Design Patterns](http://it-ebooks.info/book/1264/)
+2. [Hadoop MapReduce v2 Cookbook, 2nd Edition](http://it-ebooks.info/book/4891/)
