@@ -15,7 +15,7 @@
 
 
 ## Overview of parallel distributed programming
-- https://github.com/kingmolnar/IntroHadoop/raw/master/IntroductionParallelDistributedProgramming.pptx
+- https://github.com/kingmolnar/IntroHadoop/raw/master/IntroductionParallelDistributedProgramming_short.pptx
 
 ## UNIX Refresher
 
