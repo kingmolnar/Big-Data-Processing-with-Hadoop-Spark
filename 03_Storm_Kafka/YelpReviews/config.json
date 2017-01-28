@@ -1,0 +1,25 @@
+{
+    "serializer": "json",
+    "topology_specs": "topologies/",
+    "virtualenv_specs": "virtualenvs/",
+    "envs": {
+        "prod": {
+            "user": "pmolnar",
+            "nimbus": "backend-0-0.insight.gsu.edu",
+            "workers": [
+               "backend-0-0.insight.gsu.edu",
+               "backend-0-1.insight.gsu.edu",
+               "backend-0-2.insight.gsu.edu"
+            ],
+            "log": {
+                "path": "/home/pmolnar/log",
+                "max_bytes": 1000000,
+                "backup_count": 10,
+                "level": "info"
+            },
+            "use_virtualenv": false,
+            "virtualenv_root": "/home/pmolnar/sparse",
+            "virtualenv_flags": "-p /usr/bin/python2"
+        }
+    }
+}
