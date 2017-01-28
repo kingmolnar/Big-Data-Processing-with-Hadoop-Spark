@@ -1,0 +1,24 @@
+bolts:
+- className: org.apache.storm.flux.wrappers.bolts.FluxShellBolt
+  constructorArgs:
+  - [streamparse_run, bolts.wordcount.WordCountBolt]
+  - [word, count]
+  id: count_bolt
+  parallelism: 1
+config: {pystorm.log.backup_count: 10, pystorm.log.level: info, pystorm.log.max_bytes: 1000000,
+  topology.acker.executors: 0, topology.python.path: /wordcount/bin/python, topology.workers: 1}
+name: wordcount
+spouts:
+- className: org.apache.storm.flux.wrappers.spouts.FluxShellSpout
+  constructorArgs:
+  - [streamparse_run, spouts.words.WordSpout]
+  - [word]
+  id: word_spout
+  parallelism: 1
+streams:
+- from: word_spout
+  grouping:
+    args: [word]
+    streamId: default
+    type: FIELDS
+  to: count_bolt
