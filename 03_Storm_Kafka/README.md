@@ -16,6 +16,9 @@ This session will introduce some of the core concepts of processing realtime str
 - Kafka Twitter Producer https://github.com/ZEPL/kafka-twitter 
 - Apache Kafka Tutorial https://www.tutorialspoint.com/apache_kafka/apache_kafka_tutorial.pdf
 
+## Books
+ - A couple of books about Storm https://github.com/clojurians-org/storm-ebook
+ 
 ## Projects
 1. Build a Twitter producer for Kafka...make it work on ARC
 2. Build Kafka producer for other data sources: news, weather, stock market, traffic
