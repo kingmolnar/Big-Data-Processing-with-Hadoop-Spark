@@ -1,4 +1,4 @@
-# Introduction to Hadoop
+# Big Data Processing with Hadoop/Spark
 The workshop series offers a brief introduction to concepts of parallel distributed computing and the Hadoop universe. Participants will learn to navigate among the various tools, and to write programs for large scale data analysis. Examples will be provided in Python; knowledge of the Java programming language is not required.
 
 We will cover some of the core elements of Hadoop: the distributed file system (HDFS), MapReduce, Yarn, Hive, Kafka, and some other components.
