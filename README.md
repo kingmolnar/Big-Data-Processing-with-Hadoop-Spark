@@ -6,7 +6,7 @@ We will cover some of the core elements of Hadoop: the distributed file system (
 ## Schedule
 
 Session | Date | Time | Topic
-__|___|____|_
+--------|------|------|------
 1| Friday, October 20 | 1:00 - 4:00 PM | Distributed Computing, HDFS, Distributed Data Sets
 2| Saturday, October 21 | 9:00 AM - 12:00 noon | Spark Data Frames
 3| Friday, October 27 | 1:00 - 4:00 PM | Machine Learning with Spark
