@@ -3,10 +3,23 @@ The workshop series offers a brief introduction to concepts of parallel distribu
 
 We will cover some of the core elements of Hadoop: the distributed file system (HDFS), MapReduce, Yarn, Hive, Kafka, and some other components.
 
+## Schedule
+
+Session | Date | Time | Topic
+__|___|____|_
+1| Friday, October 20 | 1:00 - 4:00 PM | Distributed Computing, HDFS, Distributed Data Sets
+2| Saturday, October 21 | 9:00 AM - 12:00 noon | Spark Data Frames
+3| Friday, October 27 | 1:00 - 4:00 PM | Machine Learning with Spark
+4| Saturday, October 28 | 9:00 AM - 12:00 noon | Stream Processing 
+
+
+
 ## Sessions
+
 1. Participants learn about the core concepts behind Hadoop, how to manage data files on HDFS, and use the MapReduce Streaming API for scalable, distributed data processing with Python.
 2. The second session covers managing data in Hive and HBase, and best practices of using schema based versus key-value-based data stores.
 3. Participants will use Kafka to ingest data from Internet sources, such as the Twitter Streaming API, and prepare the collected samples for processing.
+4. 
 
 <!--
 ##Objectiv:
