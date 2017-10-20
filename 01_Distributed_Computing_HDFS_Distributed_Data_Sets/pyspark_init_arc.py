@@ -24,6 +24,6 @@ if not 'sc' in globals():
     conf = SparkConf()
     conf.setAppName('MyFirstSpark') ## you may want to change this
     conf.setMaster('yelp-client')
-    sc = SparkContext()
+    sc = SparkContext(conf=conf)
     print "Launched Spark version %s with ID %s" % (sc.version, sc.applicationId)
     print "http://arc.insight.gsu.edu:8088/cluster/app/%s"% (sc.applicationId)

@@ -24,6 +24,6 @@ if not 'sc' in globals():
     conf = SparkConf()
     conf.setAppName('MyFirstSpark') ## you may want to change this
     conf.setMaster('local[2]')
-    sc = SparkContext()
+    sc = SparkContext(conf=conf)
     print "Launched Spark version %s with ID %s" % (sc.version, sc.applicationId)
 
