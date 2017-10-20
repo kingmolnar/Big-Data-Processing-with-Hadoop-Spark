@@ -7,6 +7,7 @@
 
 
 ### Objectives of this session
+1. Challenges of parallel distributed computing and the map-reduce concept
 1. Introduce the concept of RDDs (Resilient Distributed Datasets), and the principle of 'transformations' and 'actions'
 2. Run and monitor Spark processes (on the cluster, as well as in other environments)
 
