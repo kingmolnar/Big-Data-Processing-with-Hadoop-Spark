@@ -18,7 +18,16 @@ We will explore some of Spark's machine learning features. In particular two tas
 
 2. Develop a document classifier on Yelp reviews. This could be based on star-ratings (or just good vs bad), or certain properties of the restaurants.
 
+## Examples
 
+- [Spark Machine Learning Introduction](https://github.com/XD-DENG/Spark-ML-Intro) provides examples for *Random Forest*, *Regression*, *k-Means*.
+- Spark exmample files and data sets can be download from the official GitHub repository 
+[apache/spark](https://github.com/apache/spark)
+- Example code is stored on ARC in `/opt/apache-spark-examples/` Python code can be found in `/opt/apache-spark-examples/src/main/python/`
+
+- The example data files are stored on the **HDFS** on ARC in `/data/apache-spark`
+	Use the command `hdfs dfs -ls -R /data/apache-spark` to list the available files.
+ 
 ### Collaborative Filter
 - [Alternating Least Squares Method for Collaborative Filtering](https://bugra.github.io/work/notes/2014-04-19/alternating-least-squares-method-for-collaborative-filtering/)
 - [Matrix Factorization Techniques for Recommender Systems](http://dl.acm.org/citation.cfm?id=1608614)
